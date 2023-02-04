@@ -12,10 +12,14 @@
     opacity: 1;
 }
 
+.trainer div{
+    opacity: 1;
+}
+
 .leftbar .trainersprite{
     position: relative;
     bottom: 110px;
-    right: 20px;
+    right: 10px;
 }
 
 .leftbar .trainer strong{
@@ -33,7 +37,7 @@
 .rightbar .trainersprite{
     position: relative;
     top: 50px;
-    right: 0px;
+    left: 10px;
 }
 
 .rightbar .trainer strong{
@@ -53,7 +57,7 @@
     display: block;
     width: 310px;
     position: relative;
-    right: 250px;
+    right: 240px;
     bottom: 30px;
     font-size:10pt;
     font-weight: bold;
@@ -68,7 +72,7 @@
     display: block;
     width: 310px;
     position: relative;
-    right: 230px;
+    right: 240px;
     bottom: 35px;
     font-size:10pt;
     font-weight: bold;
