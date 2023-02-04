@@ -1,0 +1,310 @@
+@-moz-document domain("replay.pokemonshowdown.com"), domain("play.pokemonshowdown.com") {
+.leftbar, .rightbar{
+    background-color: #0000;
+    border: 0px;
+    height: 360px;
+}
+.teamicons:nth-of-type(4){
+    display: none;
+}
+.trainer .picon{
+    margin: 0px;
+    opacity: 1;
+}
+
+.leftbar .trainersprite{
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+.leftbar .trainer strong{
+    position: relative;
+    color: #fff;
+    width: 310px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-size: 10pt;
+    text-align: left;
+    top: 210px;
+    left: 10px;
+    margin: 0px;
+}
+
+.rightbar .trainersprite{
+    position: relative;
+    top: 50px;
+    right: 0px;
+}
+
+.rightbar .trainer strong{
+    position: relative;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    width: 310px;
+    margin: 0px;
+    text-align: right;
+    font-size: 10pt;
+    top: 370px;
+    right: 220px;
+}
+
+.leftbar .trainersprite::after{
+    content: attr(title);
+    display: block;
+    width: 310px;
+    position: relative;
+    right: 250px;
+    bottom: 30px;
+    font-size:10pt;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    transform: scale(-1 ,1);
+}
+
+.rightbar .trainersprite::after{
+    content: attr(title);
+    display: block;
+    width: 310px;
+    position: relative;
+    right: 230px;
+    bottom: 35px;
+    font-size:10pt;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.trainer div.teamicons{
+    width: 120px;
+}
+
+.leftbar .teamicons{
+    position: relative;
+    right: 122px
+}
+.leftbar .teamicons:nth-of-type(2) span:nth-of-type(1){
+    position: relative;
+    left: 129px;
+    bottom: 100px;
+}
+.leftbar .teamicons:nth-of-type(2) span:nth-of-type(2){
+    position: relative;
+    left: 90px;
+    bottom: 65px;
+}
+.leftbar .teamicons:nth-of-type(2) span:nth-of-type(3){
+    position: relative;
+    left: 51px;
+    bottom: 30px;
+}
+.leftbar .teamicons:nth-of-type(3) span:nth-of-type(1){
+    position: relative;
+    left: 131px;
+    bottom: 25px;
+}
+.leftbar .teamicons:nth-of-type(3) span:nth-of-type(2){
+    position: relative;
+    left: 90px;
+    bottom: -10px;
+}
+.leftbar .teamicons:nth-of-type(3) span:nth-of-type(3){
+    position: relative;
+    left: 49px;
+    bottom: -45px;
+}
+
+.rightbar .teamicons{
+    position: relative;
+    left: 98px;
+}
+.rightbar .teamicons:nth-of-type(2) span:nth-of-type(1){
+    position: relative;
+    right: 50px;
+    top: 56px;
+}
+.rightbar .teamicons:nth-of-type(2) span:nth-of-type(2){
+    position: relative;
+    right: 92px;
+    top: 91px;
+}
+.rightbar .teamicons:nth-of-type(2) span:nth-of-type(3){
+    position: relative;
+    right: 134px;
+    top: 126px;
+}
+.rightbar .teamicons:nth-of-type(3) span:nth-of-type(1){
+    position: relative;
+    right: 53px;
+    top: 131px;
+}
+.rightbar .teamicons:nth-of-type(3) span:nth-of-type(2){
+    position: relative;
+    right: 91px;
+    top: 166px;
+}
+.rightbar .teamicons:nth-of-type(3) span:nth-of-type(3){
+    position: relative;
+    right: 129px;
+    top: 201px;
+}
+
+/*leftbar tooltip positioning, requires the pixel offsets in the leftbar icons*/
+/*first offset in each pair is for replays, second one is for live games*/
+#tooltipwrapper[style*="left: 185px; top: 281px;"]{
+    position: absolute;
+    left:220px !important;
+    top: 240px !important;
+}
+#tooltipwrapper[style*="left: 7px; top: 276px;"]{
+    position: absolute;
+    left:45px !important;
+    top: 235px !important;
+}
+
+#tooltipwrapper[style*="left: 186px; top: 281px;"]{
+    position: absolute;
+    left: 220px !important;
+    top: 275px !important;
+}
+#tooltipwrapper[style*="left: 8px; top: 276px;"]{
+    position: absolute;
+    left: 45px !important;
+    top: 270px !important;
+}
+
+#tooltipwrapper[style*="left: 187px; top: 281px;"]{
+    position: absolute;
+    left: 220px !important;
+    top: 310px !important;
+}
+#tooltipwrapper[style*="left: 9px; top: 276px;"]{
+    position: absolute;
+    left: 45px !important;
+    top: 305px !important;
+}
+
+#tooltipwrapper[style*="left: 187px; top: 311px;"]{
+    position: absolute;
+    left: 220px !important;
+    top: 345px !important;
+}
+#tooltipwrapper[style*="left: 9px; top: 306px;"]{
+    position: absolute;
+    left: 45px !important;
+    top: 340px !important;
+}
+
+#tooltipwrapper[style*="left: 186px; top: 311px;"]{
+    position: absolute;
+    left: 220px !important;
+    top: 380px !important;
+}
+#tooltipwrapper[style*="left: 8px; top: 306px;"]{
+    position: absolute;
+    left: 45px !important;
+    top: 375px !important;
+}
+
+#tooltipwrapper[style*="left: 185px; top: 311px;"]{
+    position: absolute;
+    left: 220px !important;
+    top: 415px !important;
+}
+#tooltipwrapper[style*="left: 7px; top: 306px;"]{
+    position: absolute;
+    left: 45px !important;
+    top: 410px !important;
+}
+
+/*rightbar tooltip positioning*/
+/*first offset in each pair is for replays, second one is for live games*/
+/*second one changes for no apparent reason --> multiple versions for live games,  issue only happens on rightbar for some reason*/
+#tooltipwrapper[style*="left: 766px;"]{
+    position: absolute;
+    left: 475px !important;
+    top: 235px !important;
+}
+#tooltipwrapper[style*="left: 588px;"]{
+    position: absolute;
+    left: 295px !important;
+    top: 240px !important;
+}
+
+#tooltipwrapper[style*="left: 764px;"]{
+    position: absolute;
+    left: 475px !important;
+    top: 275px !important;
+}
+#tooltipwrapper[style*="left: 586px;"]{
+    position: absolute;
+    left: 295px !important;
+    top: 280px !important;
+}
+
+#tooltipwrapper[style*="left: 762px;"]{
+    position: absolute;
+    left: 475px !important;
+    top: 310px !important;
+}
+#tooltipwrapper[style*="left: 584px;"]{
+    position: absolute;
+    left: 295px !important;
+    top: 315px !important;
+}
+
+#tooltipwrapper[style*="left: 763px;"]{
+    position: absolute;
+    left: 475px !important;
+    top: 345px !important;
+}
+#tooltipwrapper[style*="left: 585px;"]{
+    position: absolute;
+    left: 295px !important;
+    top: 340px !important;
+}
+
+#tooltipwrapper[style*="left: 765px;"]{
+    position: absolute;
+    left: 475px !important;
+    top: 380px !important;
+}
+#tooltipwrapper[style*="left: 587px;"]{
+    position: absolute;
+    left: 295px !important;
+    top: 375px !important;
+}
+
+#tooltipwrapper[style*="left: 767px;"]{
+    position: absolute;
+    left: 475px !important;
+    top: 415px !important;
+}
+#tooltipwrapper[style*="left: 589px;"]{
+    position: absolute;
+    left: 295px !important;
+    top: 410px !important;
+}
+
+.has-tooltip{
+    z-index: 1;
+}
+
+.turn{
+    position: absolute !important;
+    top: 5px !important;
+    left: 275px !important;
+    opacity: 0.8 !important;
+}
+/*repositioning turn counter tooltip*/
+#tooltipwrapper[style*="left: 451px;"]{
+    position: absolute;
+    left: 351px !important;
+}
+#tooltipwrapper[style*="left: 273px;"]{
+    position: absolute;
+    left: 173px !important;
+}
+}
